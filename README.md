@@ -1,7 +1,4 @@
-#Git com GitHub
+.   Curso de JavaScript Basico.
 
-. Aprendendo Introdução ao JavaScript com Prof. Gustavo Guanabara
-. Via YouTube
-
-. Saiba mais em [CarmichaelLucas.github.com](https://github.com/CarmichaelLucas)
+Saiba mais em [CarmichaelLucas.github.com](https://github.com/CarmichaelLucas)
 
