@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Segundo exercicio proposto JS</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Verificador de Idade e Gênero</h1>
+        <br>
+    </header>
+    <section>
+        <div>
+            <div class="ano">
+                <!--Recebe Idade-->
+                <label for="txtAno">Ano Nascimento: </label>
+                <input type="text" name="txtAno" maxlength="4"  pattern="([0-9]{4})" id="anoNasc" onclick="sleeped()">
+                <span id="semValor"></span>
+            </div>
+
+            <!--Recebe Genero-->
+            <div class="sexo">
+                <label for="txtSex">Sexo: </label>
+                <input type="radio" name="txtSex" checked> Masculino
+                <input type="radio" name="txtSex" > Feminino
+                <input type="radio" name="txtSex" > Outro
+            </div>
+            
+            <!--Envia Dados-->
+            <div class="btnEnvia">
+                <input type="submit" value="Enviar" onclick="verificador()">
+            </div>
+        </div>
+        <div id="resposta">
+            <!--Resposta do JS-->          
+        </div>
+    </section>
+    <footer>
+        <br>
+        <p>&copy; Lucas Carmichael dos Santos de Oliveira</p>
+    </footer>
+    <!-- Arquivo JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

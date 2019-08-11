@@ -1,0 +1,57 @@
+*{
+    margin:  0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(62, 129, 129);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+}
+
+header, footer{
+    color: antiquewhite;
+    text-align: center;
+}
+
+section{
+    background-color: antiquewhite;
+    padding: 15px;
+    border-radius: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(12, 12, 12, 0.5);
+}
+
+footer{
+    font-style: italic;
+}
+
+/*CLASS*/
+.sexo, .ano{
+    padding: 10px;
+}
+.ano input{
+    width: 60px;
+    height: 20px; 
+
+    font-size: 18px;
+    padding: 8px;
+
+    border: none;
+}
+.sexo input{
+    margin: 10px;
+    cursor: pointer;
+
+}
+.btnEnvia input{
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    cursor: pointer;
+
+    color: rgb(4, 2, 102);
+    background-color: rgb(221, 221, 252);
+    border: solid 1px rgb(4, 2, 102);
+}
