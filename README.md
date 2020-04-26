@@ -1,4 +1,4 @@
-.   Curso de JavaScript Basico.
+* Curso Basico de JavaScript ministrado por Guanabara.
 
-Saiba mais em [CarmichaelLucas.github.com](https://github.com/CarmichaelLucas)
+Aprendizado dos metodos basicos sobre a linguagem, onde foi implementado uma aplicação simples.
 
